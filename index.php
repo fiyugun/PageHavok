@@ -8,7 +8,9 @@
 <?php
     // Mensaje de saludo
     echo "<h1>¡Hola, bienvenido a mi página PHP en Azure!</h1>";
+for $i in 
 ?>
 
+ <a href="Pagina1.html">Comenzar</a>   
 </body>
 </html>
