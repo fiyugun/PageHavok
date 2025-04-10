@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+
+  width: 100px;
+  float: right;
+  
+}
+
+#overflowTest{
+    background: #4CAF50;
+    color:aliceblue;
+    overflow: scroll;
+    width: 70%;
+    height: 100px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #494848;
+}
+
+.active {
+  background-color: rgba(255, 123, 0, 0.87);
+}
+
+p {
+  display: none;
+  background-color: rgb(0, 255, 42);
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+  <nav>
+    <a href="Index.php">Inicio</a>
+    <a href="Pagina1.html">Página 1</a>
+    <a href="Pagina1.html">Página 1</a>
+    <a href="Pagina2.html">Página 2</a>
+    <a href="Pagina3.html">Página 3</a>
+    <a href="Pagina4.html">Página 4</a>
+    <a href="Pagina5.html">Página 5</a>
+    <a href="Pagina6.html">Página 6</a>
+    <a href="Pagina7.html">Página 7</a>
+    <a href="Pagina.html">Pagina</a>
+  </nav>
+
+    <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+<h1>This is a heading</h1>
+<img src="Buho1.jpg">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+<div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+
+
+<div>Hover over this div element to show the p element
+  <p>Tada! Here I am!</p>
+</div>
+
+</body>
+</html>
+

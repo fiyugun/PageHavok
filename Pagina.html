@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <style>
+        /*Cambiar comportamientos del Body */
+        body{
+            /*2602/2025, vamos a comprimir los cambios en una sola Linea */
+            background: #fff url("Buho1.jpg") no-repeat right top;
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+
+        }
+        /*Vamos a cambiar un H1, este estilo se aplicara para esa etiqueta*/
+        h1{
+            color:white;
+            text-align: center;
+            background-color: darkgray;
+            opacity: 0.3;
+            border-color: darkgray; 
+            border-radius:20px;
+        }
+        /*Vamos a cambiar un parrafo*/
+        p{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+
+        #para1{
+            text-align: center;
+            color:rgb(8, 92, 92);
+        }
+
+        p.center{
+            text-align: center;
+            color:orange;
+        }
+        p.largo{
+            font-size: 200%;
+        }
+
+        /*Le aplicara a todos los elementos de la pagina */
+
+        *{
+            text-align: center;
+            color:rgb(20, 20, 110);
+        }
+
+
+        h1,h2,p {
+        text-align: center;
+        color: rgb(21, 21, 21);
+        }
+
+
+        #parraf1{
+
+            background-image: url("Fondo1.jpg");
+        }
+
+        #parraf2{
+              border-style: solid;
+              border-width: 4px 5px 2px 5px;
+              border-color: red green blue rgb(20, 20, 20);
+              border-top-style: dashed;
+              border-bottom-style: dotted;
+              border-left-style: dashed;
+              
+            }
+
+            div{
+                border: 15px solid green;
+
+                height: 30px;
+                width: 80%;
+                padding: 10px;
+                background-color: rgb(255, 174, 0);
+                margin:100px;
+                outline: dotted darkorange;
+                inline-size: auto;
+                outline-offset: 15px;
+                color: rgb(159, 153, 153);
+        
+            }
+
+        #parraf3{
+            direction:rtl;
+            color:chocolate;
+            unicode-bidi: bidi-override;
+        }
+
+        img.a {
+        vertical-align: text-top;
+        }
+
+        #p1{
+            font-style:italic;
+            font-weight: normal;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(168, 107, 107);
+
+        }
+
+        body {
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 8px 12px;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #555;
+      border-radius: 5px;
+    }
+
+    </style>
+
+    
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="Index.php">Inicio</a>
+        <a href="Pagina1.html">Página 1</a>
+        <a href="Pagina1.html">Página 1</a>
+        <a href="Pagina2.html">Página 2</a>
+        <a href="Pagina3.html">Página 3</a>
+        <a href="Pagina4.html">Página 4</a>
+        <a href="Pagina5.html">Página 5</a>
+        <a href="Pagina6.html">Página 6</a>
+        <a href="Pagina7.html">Página 7</a>
+        <a href="Pagina.html">Pagina</a>
+      </nav>
+
+    <h1 style="font-size:10vw">Hello World</h1>
+    <h1 style="border:2px solid rgb(243, 246, 248);">La historia del Buho Memo</h1>
+    <h2>Smaller heading!</h2>
+    <p>This is a paragraph.</p>
+
+    <p>Este es un parrafo y tendra el estilo que le demos</p>
+    <p id="para1"> Este parrafo va en un color en concreto </p>
+    <p id="para1">Este texto tendra una imagen de fondo.</p>
+    <p class="center largo">Este esta dato por una clase</p>
+
+    <u>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+    </u>
+
+    <h1 style="background-color: dodgerblue;">Yo Solo soy un simple texto y me veo afectado por que el estilo se le aplicara a todo lo que no tenga etiqueta independiente</h1>
+    <p style="background-color:tomato;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+    <p >The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+
+    <div>
+        This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.
+
+    </div>
+
+        <h4 id="parraf3">Guillermo</h4>
+
+        <p>una <img class="a" src="sqpurple.gif" width="9" height="9"> Imagen, con alineación</p> 
+
+        <p id="p1">Programming Code</p>
+
+        <h1 class="font-effect-fire">Sofia on Fire</h1>
+
+
+        
+
+</body>
+</html>

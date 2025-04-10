@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span {
+  display:inline;
+}
+
+div.ex1 {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.ex2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+img {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
+}
+
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+</style>
+</head>
+<body>
+  <nav>
+    <a href="Index.php">Inicio</a>
+    <a href="Pagina1.html">Página 1</a>
+    <a href="Pagina1.html">Página 1</a>
+    <a href="Pagina2.html">Página 2</a>
+    <a href="Pagina3.html">Página 3</a>
+    <a href="Pagina4.html">Página 4</a>
+    <a href="Pagina5.html">Página 5</a>
+    <a href="Pagina6.html">Página 6</a>
+    <a href="Pagina7.html">Página 7</a>
+    <a href="Pagina.html">Pagina</a>
+  </nav>
+
+<h1>Display span elements as block elements</h1>
+
+<span>A display property with</span> <span>a value of "block" results in</span> <span>a line break between each span elements.</span>
+
+<div class="ex1">This div element has width: 500px;</div>
+<br>
+
+<div class="ex2">This div element has max-width: 500px;</div>
+
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+
+
+<p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+
+<div class="sticky">I am sticky!</div>
+
+<div style="padding-bottom:2000px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+
+<img src="Buho1.jpg">
+
+</body>
+</html>
