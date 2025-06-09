@@ -1,4 +1,9 @@
 # PHP
+- task: AzureAppServiceSettings@1
+  inputs:
+    azureSubscription: 'Suscripción de Azure 1(0466d644-4bfc-4933-8abe-64957626f577)'
+    appName: 'lgsite14'
+    resourceGroupName: 'lgsite14_group'
 # Test and package your PHP project.
 # Add steps that run tests, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/php
